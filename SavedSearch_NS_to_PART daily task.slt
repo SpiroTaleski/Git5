@@ -1,0 +1,72 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "SavedSearch_NS_to_PART daily task",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_type": "regular",
+        "llfeed_token": "sJlVxJjOWu3Tq815zttaXAf3uUsfpz75",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "SavedSearchId": "339",
+            "pipeline_name": "SUB_SavedSearch_NS_PART"
+        },
+        "pipeline_path": "SavedSearch_NS_PART",
+        "snaplex_path": null
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 25,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2017-02-02",
+        "start_time": "21:00:00",
+        "time_zone": "US/Mountain"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 25,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2017-02-02",
+        "start_time": "21:00:00",
+        "time_zone": "US/Mountain"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
